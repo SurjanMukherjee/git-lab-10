@@ -1,0 +1,3 @@
+This file contains permanent words
+Replace permanent with permanent everywhere
+Testing permanent replacement

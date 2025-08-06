@@ -1,0 +1,5 @@
+# This is a comment line and should be ignored
+temp data should be replaced
+We have some temp values here
+# Another comment that should not be counted
+Permanent lines remain permanent

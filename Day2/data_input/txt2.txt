@@ -1,0 +1,4 @@
+This file contains temp words
+Replace temp with permanent everywhere
+# Commented lines won't be counted in summary
+Testing temp replacement

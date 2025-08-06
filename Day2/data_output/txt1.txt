@@ -1,0 +1,3 @@
+permanent data should be replaced
+We have some permanent values here
+Permanent lines remain permanent
