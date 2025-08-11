@@ -1,0 +1,47 @@
+Jenkins Cron Expressions for SCM Polling
+==========================================
+
+1. Every 5 minutes:
+   H/5 * * * *
+
+2. Every hour at the 15th minute:
+   15 * * * *
+
+3. Every day at midnight:
+   0 0 * * *
+
+4. Every weekday at 9:30 AM:
+   30 9 * * 1-5
+
+5. Every Sunday at 8:00 PM:
+   0 20 * * 0
+
+6. Every 10 minutes during working hours (9 AM–5 PM) on weekdays:
+   H/10 9-17 * * 1-5
+
+7. At 6:45 PM on the 1st and 15th of each month:
+   45 18 1,15 * *
+
+8. Every 2 hours:
+   H */2 * * *
+
+9. Every 30 minutes, only on Saturdays:
+   H/30 * * * 6
+
+10. Every 5 minutes using hash (H) to distribute load:
+    H/5 * * * *
+
+11. Every day at 11:59 PM:
+    59 23 * * *
+
+12. Every 20 minutes between 6 PM and midnight:
+    H/20 18-23 * * *
+
+13. Only at 8:00 AM and 8:00 PM daily:
+    0 8,20 * * *
+
+14. Every 5 minutes between Monday and Friday:
+    H/5 * * * 1-5
+
+15. Every day at a random time in the 3 PM hour:
+    H 15 * * *
